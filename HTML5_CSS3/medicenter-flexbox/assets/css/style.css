@@ -119,4 +119,31 @@ nav a:hover {
 
 .banner_title {
     font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.banner_desc {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.banner_options a {
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.day_hours {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding: 9px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.banner3 .banner_title {
+    margin-bottom: 10px;
 }
