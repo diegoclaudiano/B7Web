@@ -189,6 +189,13 @@ nav a:hover {
     flex-wrap: wrap;
 }
 
+.widget_body article {
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+
 article {
     flex: 1;
     min-width: 300px;
@@ -241,17 +248,12 @@ article .news_resume {
     margin-bottom: 30px;
 }
 
-.square_area {
-    flex: 2;
-    min-width: 100px;
-    min-height: 100px;
-    background-color: #36a9e1;
-    border: 2px solid #000000;
+article .deparments {
+    display: flex;
 }
 
-.widget_body article {
-    color: #FFFFFF;
-    font-size: 12px;
-    padding: 10px;
-    margin-right: 2px;
+.square_area {
+    width: 100px;
+    height: 100px;
+    background-color: #36a9e1;
 }
