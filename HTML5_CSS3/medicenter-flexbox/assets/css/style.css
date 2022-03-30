@@ -251,16 +251,17 @@ article .news_resume {
 .deparments {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* background-color: #000000; */
     min-width: 200px;
 }
 
 .deparments a {
     background-color: #36a9e1;
-    margin-bottom: 20px;
+    margin: 15px;
     width: 120px;
     height: 120px;  
+    margin-left: 0;
 }
 
 /* square_area {
