@@ -338,3 +338,42 @@ article .news_resume,
 .list_contact a:hover {
     border-bottom: 1px solid #3156A3;
 }
+
+/* ===== FOOTER ===== */
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu {
+    display: flex;
+}
+
+.fm_1, .fm_2, .fm_3 {
+    flex: 1;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.fm_1 {
+    background-color: #39aae1;
+}
+
+.fm_2 {
+    background-color: #0079c7;
+}
+
+.fm_3 {
+    background-color: #2b4c99;
+}
+
+.footer_area {
+    display: flex;
+    color: #FFFFFF;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
