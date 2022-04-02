@@ -397,3 +397,58 @@ footer .widget_title_text {
     font-size: 12px;
     margin-top: 30px;
 }
+
+.footer_box {
+    color: #909090;
+    font-size: 14px;
+}
+
+.social_icon .facebook {
+    background-image: url('/assets/imagens/facebook.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin-right: 10px;
+    min-width: 28px;
+    min-height: 28px;
+    transition: 300ms;
+}
+
+footer .social_icon.twitter {
+    background-image: url('/assets/imagens/twitter.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin-right: 10px;
+    min-width: 28px;
+    min-height: 28px;
+    transition: 300ms;
+}
+
+footer .social_icon.googleplus {
+    background-image: url('/assets/imagens/googleplus.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin-right: 10px;
+    min-width: 28px;
+    min-height: 28px;
+    transition: 300ms;
+    text-decoration: none;
+    color: #909090;
+}
+
+.social_icon .mail {
+    background-image: url('/assets/imagens/mail.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    margin-right: 10px;
+    min-width: 28px;
+    min-height: 28px;
+    transition: 300ms;
+}
+
+/* footer ul {
+    list-style: none;
+} */
