@@ -615,6 +615,7 @@ footer .widget_title_text {
         position: absolute;
         left: 0;
         width: 100%;
+        min-width: 320px;
         background-color: #FFFFFF;
     }
 
