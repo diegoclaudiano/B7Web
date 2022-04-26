@@ -1,8 +1,15 @@
 * {
-    margin: 0;
-    padding: 0;
     font-family: arial;
 }
+
+html, body { overflow-x: hidden;}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+}
+
 
 /* ===== HEADER - MENU ===== */
 
@@ -10,7 +17,6 @@ header {
     display: flex;
     justify-content: center;
     height: 120px;
-    min-width: 990px;
 }
 
 .container {
@@ -63,7 +69,6 @@ nav a:hover {
     background-position: center;
     background-size: cover;
     height: 670px;
-    min-width: 990px;
 }
 
 .column {
@@ -82,12 +87,16 @@ nav a:hover {
     font-size: 70px;
     text-shadow: 0px 1px 0px #555555;
     max-width: 350px;
+    margin: 0;
+    padding: 0;
 }
 
 .banner_headline h2 {
     color: #FFFFFF;
     font-size: 21px;
     text-shadow: 0px 1px 0px #555555;
+    margin: 0;
+    padding: 0;
     max-width: 350px;
     margin-top: 30px;
 }
@@ -126,6 +135,7 @@ nav a:hover {
 
 .banner_desc {
     font-size: 12px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -155,7 +165,6 @@ nav a:hover {
 #geral {
     display: flex;
     justify-content: center;
-    min-width: 990px;
 }
 
 #geral section {
@@ -326,7 +335,7 @@ article .news_resume,
 .phone:hover,
 .mail:hover,
 .form:hover {
-    background-position: center bottom;   
+    background-position: center bottom;
 }
 
 .list_contact a {
@@ -345,7 +354,6 @@ footer {
     background-color: #1e1e1e;
     display: flex;
     justify-content: center;
-    min-width: 990px;
 }
 
 .footer_menu {
@@ -451,6 +459,7 @@ footer .widget_title_text {
 .footer_post,
 .footer_tweets {
     list-style: url('/assets/imagens/icon_arrow_right_white.png');
+    padding-left: 15px;
 }
 
 .footer_list_post,
@@ -462,6 +471,7 @@ footer .widget_title_text {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
+    padding-left: 0;
 }
 
 .footer_contact .footer_contact_list {
@@ -544,12 +554,12 @@ footer .widget_title_text {
 
 .mm_line {
    height: 3px;
-   background-color: #39aae1; 
+   background-color: #39aae1;
 }
 
 /* ===== RESPONSIBILITY ===== */
 
-@media (max-width:600px) {
+@media (max-width:790px) {
 
     .banner_headline {
         padding: 20px;
@@ -560,7 +570,7 @@ footer .widget_title_text {
     }
 
     .banner_headline h2 {
-       font-size: 17px; 
+       font-size: 17px;
     }
 
     .banner_options {
@@ -572,7 +582,11 @@ footer .widget_title_text {
         flex-direction: column;
     }
 
-    #geral section,
+    #geral section {
+        padding: 20px;
+        margin-top: 30px;
+    }
+
     #geral aside {
         padding: 20px;
     }
@@ -584,10 +598,11 @@ footer .widget_title_text {
     .footer_area {
         flex-direction: column;
         padding: 20px;
+        margin-left: 10px;
     }
 
     .footer_copy {
-        padding: 20px;
+        padding-left: 20px;
     }
 
     header .container {
@@ -597,6 +612,10 @@ footer .widget_title_text {
     nav ul {
         flex-direction: column;
         display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
     }
 
     header {
@@ -613,7 +632,22 @@ footer .widget_title_text {
         justify-content: space-around;
     }
 
-    .flex {
-        display: block;
+    .widget_response {
+        margin-top: 150px;
+    }
+
+    .widget_title {
+        margin-left: 10px;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .footer_box {
+        margin-left: 10px;
+    }
+
+    .footer_copy {
+        margin-left: 20px;
     }
 }
