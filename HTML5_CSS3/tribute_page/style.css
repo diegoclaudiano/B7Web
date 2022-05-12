@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+header span {
+    color: #FF9100;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* margin-bottom: 10vh; */
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.photo img {
+    width: 400px;
+}
+
+.photo img:hover {
+    opacity: 0.5;
+}
+
+.container {
+    border: 1px solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 95%;
+    margin: 0 auto;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    background-color: #FF9100;
+    height: 80px;
+}
+
+.about h2 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.about_description p {
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-size: 18px;
+    margin: 30px;
+}
+
+.button {
+    background-color: #FF9100;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.button:hover {
+    background-color: #d7871e;
+}
+
+.button a {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+}
