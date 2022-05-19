@@ -1,7 +1,10 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+/* ===== MENU ===== */
 
 header {
     height: 100px;
@@ -11,6 +14,24 @@ header {
 .header {
     max-width: 1140px;
     height: 100px;
-    background-color: red;
     margin: auto;
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logoimg {
+    width: 80px;
+    height: 80px;
+    background-color: #B28756;
 }
