@@ -71,3 +71,13 @@ header {
     border-bottom: 5px solid #B28756;
     color: #CCC;
 }
+
+/* ==== BANNER ===== */
+
+.banner {
+    height: calc(100vh - 100px);
+    background-color: #333;
+    background-image: url('/assets/images/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
