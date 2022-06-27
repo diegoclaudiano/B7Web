@@ -453,13 +453,6 @@ header {
 }
 
 /* ===== HAPPY CLIENTS ========================================== */
-
-/* .section-happy {
-    overflow: hidden;
-    max-width: 880px;
-    margin: auto;
-} */
-
 .happy {
     background-color: #f0f0f0;
 }
@@ -472,13 +465,16 @@ header {
 .happy .slide {
     width: 100vw;
     height: 100%;
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .happy .slidearea {
     display: flex;
     flex-direction: column;
     height: 100%;
+    /* width: 100%; */
     justify-content: center;
     align-items: center;
 }
