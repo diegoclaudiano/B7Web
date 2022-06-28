@@ -532,3 +532,19 @@ header {
     text-align: center;
     font-weight: 600;
 }
+
+/* ===== COMPANY ========================================================== */
+.company {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-images img {
+    margin-right: 100px;
+}
+
+.company-images img:nth-last-child(1) {
+    margin-right: 0;
+}
