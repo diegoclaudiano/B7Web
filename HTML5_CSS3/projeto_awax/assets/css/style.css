@@ -169,15 +169,15 @@ header {
 .default .section-desc {
     text-align: center;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .default .section-title {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .default .section-desc {
-    font-size: 12px;
+    font-size: 13px;
     color: #999;
     margin-top: 10px;
     margin-bottom: 40px;
@@ -222,6 +222,7 @@ header {
 .section-aboutus--left p {
     font-size: 14px;
     line-height: 25px;
+    font-weight: 500;
 }
 
 .section-aboutus--right {
@@ -474,7 +475,6 @@ header {
     display: flex;
     flex-direction: column;
     height: 100%;
-    /* width: 100%; */
     justify-content: center;
     align-items: center;
 }
@@ -507,16 +507,16 @@ header {
 }
 
 .section-happy--name {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 600;
-    font-size: 17px;
+    font-size: 22px;
     margin-top: 30px;
     color: #000;
     font-weight: 700;
 }
 
 .section-happy--role {
-    font-size: 14px;
+    font-size: 16px;
     color: #000;
     font-weight: 600;
     margin-top: 5px;
@@ -529,6 +529,7 @@ header {
 
 .section-happy--text {
     color: #999;
+    font-size: 14px;
     text-align: center;
     font-weight: 600;
 }
@@ -547,4 +548,20 @@ header {
 
 .company-images img:nth-last-child(1) {
     margin-right: 0;
+}
+
+/* ===== PRICE/PLANS ======================================= */
+.price {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-price--plans {
+    background-color: #FFF;
+    width: 220px;
+    height: 310px;
+    margin-right: 50px;
 }
