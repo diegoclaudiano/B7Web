@@ -633,11 +633,6 @@ header {
 }
 
 /* ===== PREMIUM ================================= */
-
-/* .premium {
-    height: calc(100vh - 100px);
-} */
-
 .premium .sliders {
     width: 1000vw;
     height: 100%;
@@ -657,7 +652,7 @@ header {
 
 .premium-feature {
     display: flex;
-    margin-left: 100px;
+    margin-left: 60px;
     margin-bottom: 30px;
 }
 
@@ -693,6 +688,12 @@ header {
     align-items: center;
 }
 
+.premium-line {
+    border-bottom: 1px solid #CCC;
+    width: 80rem;
+    margin: 50px auto 40px;
+}
+
 .premium .sliders-pointers {
     margin-top: 30px;
     height: 20px;
@@ -713,4 +714,10 @@ header {
 
 .premium .pointer.active {
     background-color: #B28756;
+}
+
+.premium .premium-button {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
 }
