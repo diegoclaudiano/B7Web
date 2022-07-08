@@ -849,3 +849,8 @@ header {
     height: 40px;
     border-radius: 50%;
 }
+
+/* ===== CONTACT US =========================== */
+.contact {
+    background-color: #f0f0f0;
+}
