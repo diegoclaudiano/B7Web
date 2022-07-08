@@ -757,3 +757,95 @@ header {
     font-size: 13px;
     color: #999;
 }
+
+/* ===== SOCIAL ================================ */
+.section-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section-social .share {
+    margin-right: 20px;
+}
+
+.section-social .share-abouts {
+    margin-right: 80px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #999;
+}
+
+.social {
+    display: flex;
+}
+
+.social .social-abouts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.social .social-abouts:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.social-abouts .number {
+    color: #999;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1DA1F2;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #0e76a8;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b5998;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.googleplus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d34836;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.pinterest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E60023;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
