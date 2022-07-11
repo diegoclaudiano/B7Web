@@ -935,3 +935,25 @@ header {
     width: 15px;
     height: auto;
 }
+
+/* ===== FOOTER ========================================= */
+.footer-social {
+    display: flex;
+}
+
+.footer-social--icon {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #555;
+    border-radius: 15px;
+    margin-right: 15px;
+}
+
+.footer-social--icon:hover {
+    background-color: #B28756;
+    transition: 200ms;
+}
