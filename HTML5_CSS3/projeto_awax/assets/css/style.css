@@ -1225,9 +1225,9 @@ header {
 }
 
 /* ===== RESPONSIVIDADE-MOBILE =============================== */
-@media (max-width:450px) {
+@media (min-width: 280px) and (max-width:450px) {
 
-    /* === menu-responsive === */
+    /* === menu-mobile === */
     .logo {
         margin-left: 30px;
     }
@@ -1268,7 +1268,16 @@ header {
         transform: none;
     }
 
-    /* === about-responsive === */
+    /* === banner-mobile === */
+    .banner h1 {
+        font-size: 28px;
+    }
+
+    .banner h2 {
+        font-size: 16px;
+    }
+
+    /* === about-mobile === */
     .section-aboutus {
         flex-direction: column;
     }
@@ -1279,15 +1288,21 @@ header {
 
     .section-aboutus--right {
         width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
-    /* === services-responsive === */
+    .section-aboutus--right img {
+        width: 100%;
+    }
+
+    /* === services-mobile === */
     .section-services {
         flex-wrap: wrap;
     }
 
     .section-service {
-        min-width: 50%;
+        min-width: 100%;
         margin-bottom: 30px;
     }
 
@@ -1295,47 +1310,72 @@ header {
         border-left: none;
     }
 
-    /* === our team-responsive === */
-    .section-team {
-        max-width: 580px;
-    }
-
-    /* === company-responsive === */
-    .company-images img {
+    /* === projects-mobile === */
+    .section-projects--filters {
+        margin-left: 20px;
         margin-right: 20px;
     }
 
-    /* === price-responsive === */
+    .section-projects--photo {
+        width: 320px;
+    }
+
+    .section-projects--photoarea {
+        width: 280px;
+        height: 190px;
+    }
+
+    /* === team-mobile === */
+    .section-team {
+        max-width: 280px;
+    }
+
+    /* === company-mobile === */
+    .company-images {
+        display: flex;
+        max-width: 260px;
+    }
+    .company-images img {
+        margin-right: 80px;
+    }
+
+    /* === price-mobile === */
     .section-price--plans {
-        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
       }
 
     .section-price--plan {
-          min-width: 40%;
-          margin-bottom: 30px;
-          margin-right: 0;
+        max-width: 260px;
+        margin-bottom: 30px;
+        margin-right: 0;
       }
 
-    .section-price--plan:first-child {
-        margin-right: 20px;
-    }
-
     .section-price--plan:last-child {
-        margin-left: 20px;
+        margin-bottom: 0;
     }
 
-    /* === premium-responsive === */
+    /* === premium-mobile === */
     .premium .slidearea {
         flex-direction: column;
     }
 
-    /* === some facts-responsive === */
+    .section-premium--book {
+        max-width: 260px;
+    }
+
+   .premium-feature {
+    margin-left: 10px;
+   }
+
+    /* === facts-mobile === */
     .section-facts {
         flex-wrap: wrap;
     }
 
     .section-fact {
-        min-width: 50%;
+        min-width: 100%;
         margin-bottom: 30px;
     }
 
