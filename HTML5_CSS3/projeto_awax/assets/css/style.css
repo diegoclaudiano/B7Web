@@ -791,15 +791,22 @@ header {
     margin-bottom: 20px;
 }
 
-.section-social .share {
-    margin-right: 20px;
+.section-social a {
+    text-decoration: none;
 }
 
-.section-social .share-abouts {
+.section-social .share {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     margin-right: 80px;
     font-size: 18px;
     font-weight: 700;
     color: #999;
+}
+
+.section-social .share img {
+    margin-right: 10px;
 }
 
 .social {
@@ -1365,9 +1372,11 @@ header {
         max-width: 260px;
     }
 
-   .premium-feature {
-    margin-left: 10px;
-   }
+    .premium-feature {
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 15px;
+    }
 
     /* === facts-mobile === */
     .section-facts {
@@ -1379,23 +1388,43 @@ header {
         margin-bottom: 30px;
     }
 
-    /* === social-responsive === */
-    .section-social .share {
-        margin-right: 10px;
+    /* === social-mobile === */
+    .section-social {
+        flex-direction: column;
     }
-
-    .section-social .share-abouts {
-        margin-right: 30px;
+    .section-social .share {
+        margin-right: 0;
+        margin-bottom: 20px;
     }
 
     .section-social .social-abouts {
-        margin-right: 30px;
+        flex-direction: column;
+        margin-right: 20px;
     }
 
-    /* === map-responsive === */
+    .social-img {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    /* === contact-mobile === */
+    .section-contact {
+        max-width: 280px;
+    }
+
+    .section-contact--split {
+        display: block;
+    }
+
+    .section-contact textarea {
+        height: 40px;
+    }
+
+    /* === map-mobile === */
     .section-map {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding: 0px;
+        padding-bottom: 250px;
     }
 
     .section-map--area {
@@ -1413,7 +1442,7 @@ header {
         margin-bottom: 0;
     }
 
-    /* === footer-responsive === */
+    /* === footer-mobile === */
     .section-footer {
         flex-direction: column;
         align-items: center;
@@ -1425,10 +1454,17 @@ header {
         margin-right: 0;
     }
 
+    .footer-subscribe {
+        max-width: 260px;
+    }
+
     .footer-text {
         order: 2;
-        text-align: center;
-        
+        width: auto;
+        height: auto;
+        max-width: 260px;
+        font-size: 12px;
+        line-height: 15px;
     }
     .footer-social {
         order: 1;
