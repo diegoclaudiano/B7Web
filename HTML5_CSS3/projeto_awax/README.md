@@ -7,7 +7,7 @@
 <br>
 
 <h1 align="center">
-    <img width="700px" alt="gif" title="gif-rocketseat" src="./media/awax-gif.gif">
+    <img width="700px" alt="gif" title="gif-awax" src="./media/awax-gif.gif">
 </h1>
 
 ## 🛠 Tecnologias
