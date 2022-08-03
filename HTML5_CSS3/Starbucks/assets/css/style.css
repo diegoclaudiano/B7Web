@@ -135,7 +135,7 @@ h2 {
 }
 
 .area1--content {
-  padding: 65px;
+  padding: 80px;
   margin: auto;
 }
 
@@ -171,7 +171,7 @@ h2 {
 }
 
 .area2--content {
-  padding: 65px;
+  padding: 80px;
   margin: auto;
 }
 
@@ -198,4 +198,34 @@ h2 {
   background-size: cover;
   grid-column: 1 / 2;
   grid-row: 1 / 3;
+}
+
+/* ===== AREA3 ================================ */
+.area3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.area3--content {
+  padding: 200px 80px;
+  background-image: url("../images/bg2.jpg");
+  background-position: left;
+  background-size: cover;
+}
+
+.area3--text {
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+
+.area3--img1 {
+  background-image: url("../images/f5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.area3--content h2,
+.area3--content .area3--text,
+.area3--content .button {
+  margin-left: 30%;
 }
